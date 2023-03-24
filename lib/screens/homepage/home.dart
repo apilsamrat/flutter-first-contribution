@@ -51,7 +51,8 @@ class _HomePageState extends State<HomePage> {
                       height: 40,
                       child: TextButton.icon(
                           onPressed: () {
-                            launchUrlString("urlString");
+                            launchUrlString(
+                                "https://github.com/apilsamrat/flutter-first-contribution");
                           },
                           icon: const Image(
                             image: AssetImage(
