@@ -18,7 +18,7 @@
   <h2>Contributing</h2>
   <p>We welcome contributions from everyone, regardless of skill level. If you're a beginner, we encourage you to start with something simple, like fixing a typo in the documentation or adding a new widget. If you're more experienced, feel free to tackle a larger feature or bug fix.</p>
 
-<p>To add your profile information to the contributors' page, you can edit the <code>contributor_data.dart</code> file located in the <code>data</code> folder. This file contains a list of contributors in the form of a <code>Contributor</code> object, which includes fields such as <code>name</code>, <code>imageUrl</code>, <code>profileUrl</code>, and <code>chipDataString</code>.</p>
+<p>To add your profile information to the contributors' page, you can edit the <code>contributor_data.dart</code> file located in the <code>data</code> folder. This file contains a list of contributors in the form of a <code>Contributor</code> object, which includes fields such as <code>name</code>, <code>imageUrl</code>,  <code>bio</code>,  <code>profileUrl</code>, and <code>chipDataString</code>.</p>
 
 <p>To add your own profile, simply create a new <code>Contributor</code> object and add it to the list. Make sure to include your name, a link to your avatar image, a link to your Github profile, and any relevant skills or tags you'd like to display. Here's an example of what your constructor might look like:</p>
 
@@ -27,6 +27,7 @@
 Contributors(
   name: "Your Name",
   imageUrl: "link to your avatar image", //Do Not add assets provide the url of the photo.
+  bio: "Your Bio",
   profileUrl: "link to your Github profile", 
   chipDataString: ["skill1", "skill2", "skill3"] // 5 chips are only visible at most
 ),
