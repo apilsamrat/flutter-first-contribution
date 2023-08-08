@@ -8,5 +8,12 @@ List<Contributors> contributorsDataList = [
       bio: "Tech Enthusiast | Self Learner | Android, Web, Desktop Developer.",
       profileUrl: "https://apilpoudel.com.np",
       chipDataString: ["C", "C++", "Flutter", "Firebase", "Digital Marketing"]),
-//You can add your data here to show up as a contributor.
+  Contributors(
+      name: "Sahil Arora",
+      imageUrl:
+          "https://drive.google.com/file/d/1Qu1Cy6ys5Ordv3YhfwujuJNpVk17fqYJ/view?usp=sharing",
+      bio: "I am an Undergraduate at Vit Bhopal pursuing B.tech in Computer science engineering with Artificial intelligence and machine learning",
+      profileUrl: "https://github.com/TSxSAHIL",
+      chipDataString: ["Java" ,"Flutter", "Dart" , "Firebase","Python" ,"C++" ,"Figma"]),
+      
 ];
